@@ -87,7 +87,7 @@ The efficient frontier represents optimal portfolios that offer the highest expe
    Higher Sharpe Ratios indicate more desirable portfolios.
 
 4. **Optimization**:
-   Using Monte Carlo simulations with 10,000 random portfolios, we identify portfolios on the efficient frontier and the portfolio with the maximum Sharpe Ratio.
+   Using simulations with 10,000 random portfolios, we identify portfolios on the efficient frontier and the portfolio with the maximum Sharpe Ratio.
 
 #### Efficient Frontier Visualization
 
@@ -123,11 +123,17 @@ The correlation matrix illustrates Bitcoin’s relatively low correlation with t
 
 #### Example Outputs
 
-1. **Efficient Frontier Plot**
-   ![Efficient Frontier](figures/efficient_frontier.png)
+1. **Efficient Frontier Plot of Stocks & Bonds**
+   ![Efficient Frontier](figures/efficient_frontier_stocks_bonds.png)
 
-2. **Correlation Matrix Heatmap**
-   ![Correlation Matrix](figures/correlation_matrix.png)
+2. **Efficient Frontier Plot of Stocks, Bonds & Bitcoin**
+   ![Efficient Frontier](figures/efficient_frontier_bitcoin.png)
+   
+3. **Efficient Frontier Plot of Stocks, Bonds & Gold**
+   ![Efficient Frontier](figures/efficient_frontier_gold.png)
+
+4. **Correlation Matrix Heatmap**
+   ![Correlation Matrix](figures/correlation_heat_map.png)
 
 ## License
 
